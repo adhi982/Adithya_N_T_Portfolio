@@ -162,13 +162,6 @@ Adithya_N_T_Portfolio/
 1. Modify `tailwind.config.ts` for color schemes
 2. Update CSS variables in `src/index.css`
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📞 Contact
 
