@@ -1,39 +1,121 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Adithya N T - Data Science & AI Portfolio</title>
-    <meta name="description" content="Data Science enthusiast, Prompt Engineer, and Automation Expert. Showcasing projects in AI, machine learning, and full-stack development." />
-    <meta name="author" content="Adithya N T" />
-    <meta name="keywords" content="Data Science, AI, Machine Learning, React, Python, Portfolio, Automation, Full Stack Developer" />
-
-    <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Adithya N T - Data Science & AI Portfolio" />
-    <meta property="og:description" content="Data Science enthusiast, Prompt Engineer, and Automation Expert. Showcasing projects in AI, machine learning, and full-stack development." />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://adithya-portfolio.vercel.app" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-
-    <!-- Twitter Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@adithya_nt" />
-    <meta name="twitter:title" content="Adithya N T - Data Science & AI Portfolio" />
-    <meta name="twitter:description" content="Data Science enthusiast, Prompt Engineer, and Automation Expert. Showcasing projects in AI, machine learning, and full-stack development." />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-
-    
-    <!-- Preconnects for performance -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-  </head>
-
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adithya N T - Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="resume-container">
+        <header class="resume-header">
+            <img src="Profile_img.jpeg" alt="Profile Image" class="profile-img">
+            <h1>ADITHYA N T</h1>
+            <p class="subtitle">Aspiring Data Science Engineer</p>
+            <a href="resume.pdf" class="download-btn" download>Download Resume</a>
+        </header>
+        <section>
+            <h2>About Me</h2>
+            <p>I am an aspiring Data Science engineer with hands-on experience in AI-powered applications and full-stack development. I excel in building scalable systems using modern tools and actively participate in hackathons and team projects. Passionate about solving real-world problems through innovative data solutions and collaborative software design.</p>
+        </section>
+        <section>
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li><strong>Languages:</strong> Python, Java, C++, HTML, CSS, JavaScript, SQL</li>
+                <li><strong>Frameworks/Libraries:</strong> React.js, Next.js, FastAPI, Node.js, Tailwind CSS, Three.js</li>
+                <li><strong>AI/ML Frameworks:</strong> Scikit-learn, TensorFlow, PyTorch, NLP, Model Fine-tuning, NumPy, Pandas</li>
+                <li><strong>Databases:</strong> MySQL, Supabase, Firebase, NoSQL, MongoDB</li>
+                <li><strong>Tools:</strong> n8n, REST APIs, Docker, GitHub, Mermaid.js</li>
+                <li><strong>Cloud/Analytics:</strong> AWS, Azure, Power BI, Excel</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Experience</h2>
+            <div class="item">
+                <div class="item-header">
+                    <span><strong>Intern at LimitlessMind.ai</strong></span>
+                    <span class="item-date">Jan 2025 – Mar 2025</span>
+                </div>
+                <ul>
+                    <li>Spearheaded construction of web application integrating AI agents for comprehensive topic research, earning recognition as the most innovative project of Q1.</li>
+                    <li>Built a fully functional web app with caching, authentication, database access, and backend n8n automation.</li>
+                    <li>Designed and deployed a LangChain-based chatbot achieving 85% resolution rate using semantic search over 200+ documents.</li>
+                </ul>
+                <div class="tech">Tech Stack: React, CSS, Three.js, n8n, Supabase, Gemini API.</div>
+            </div>
+        </section>
+        <section>
+            <h2>Education</h2>
+            <div class="item">
+                <div class="item-header">
+                    <span><strong>Garden City University, Bangalore</strong></span>
+                    <span class="item-date">Dec 2022 – May 2026</span>
+                </div>
+                <div>B.Tech in Computer Science (Data Science). <strong>CGPA: 9.3</strong></div>
+            </div>
+        </section>
+        <section>
+            <h2>Projects</h2>
+            <div class="item">
+                <div class="item-header">
+                    <span><strong>DevOps Multi-Agent Orchestrator</strong></span>
+                    <span class="item-date">Jun 2025 – Jul 2025</span>
+                </div>
+                <ul>
+                    <li>Intelligent, event-driven CI/CD pipeline orchestrator leveraging autonomous agents and ML-powered code analysis.</li>
+                    <li>Architected a modular pipeline with 4 agents (lint, test, build, security) enforcing strict dependencies and sequential execution.</li>
+                    <li>Implemented an ML lint agent using a fine-tuned CodeT5+ model (PyTorch, GPU-accelerated), delivering real-time code review and actionable suggestions (80% accuracy).</li>
+                    <li>Implemented Kafka-based communication (less than 1s propagation) for reliable, scalable messaging.</li>
+                    <li>Automated end-to-end execution, reducing manual steps by 80% and increasing code quality via HTML/JSON reports and AI feedback.</li>
+                    <li>Structured agent outputs for human-readable and machine-consumable analytics.</li>
+                </ul>
+                <div class="tech">Tech Stack: Python, Docker, Apache Kafka, REST API, Fine-Tuned ML Model, PyTorch.</div>
+            </div>
+        </section>
+        <section>
+            <h2>Portfolio</h2>
+            <div class="item">
+                <div class="item-header">
+                    <span><strong>EcoSense</strong></span>
+                    <span class="item-date">May 2025 – Jun 2025</span>
+                </div>
+                <ul>
+                    <li>Created a carbon footprint calculator used by 120+ monthly active users, driving a 15% emissions reduction per user.</li>
+                    <li>Designed 10 interactive modules with 90% quiz completion rate.</li>
+                    <li>Architected real-time chat and mentorship features, enabling 300 support sessions and boosting retention by 25%.</li>
+                    <li>Built mobile-first interface with Tailwind CSS, interactive and user friendly.</li>
+                </ul>
+                <div class="tech">Tech Stack: Next.js, React, TypeScript, APIs, Tailwind CSS, Node.js.</div>
+                <div class="web-link">Web: EcoSense</div>
+            </div>
+            <div class="item">
+                <div class="item-header">
+                    <span><strong>MindMapAI</strong></span>
+                    <span class="item-date">May 2025</span>
+                </div>
+                <ul>
+                    <li>Constructed NLP backend handling 10K monthly requests with 85% uptime.</li>
+                    <li>Implemented real-time map generation supporting 100 nodes with zero-lag UX.</li>
+                    <li>Integrated secure API key management and authentication.</li>
+                    <li>Processed 500 prompts/day with 90% extraction accuracy.</li>
+                </ul>
+                <div class="tech">Tech Stack: FastAPI, Python, React, Supabase, Mermaid.js.</div>
+                <div class="web-link">Web: MindMapAI</div>
+            </div>
+        </section>
+        <section>
+            <h2>Contact</h2>
+            <ul class="contact-list">
+                <li><strong>Email:</strong> <a href="mailto:adithyant982@gmail.com">adithyant982@gmail.com</a></li>
+                <li><strong>Phone:</strong> +91 63629 71592</li>
+                <li><strong>GitHub:</strong> <a href="https://github.com/adhi982" target="_blank">adhi982</a></li>
+                <li><strong>LinkedIn:</strong> <a href="#" target="_blank">adhi982</a></li>
+                <li><strong>Location:</strong> Bangalore, India</li>
+            </ul>
+        </section>
+        <footer class="footer">
+            &copy; 2025 Adithya N T | All Rights Reserved
+        </footer>
+    </main>
+</body>
 </html>
